@@ -1,1 +1,326 @@
+* {
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0 150px;
+    background-color: black;
+}
+h1  {
+    font-size: 3rem;
+    color: white;
+}
+h4 {
+    font-size: 22px;
+}
+p {
+    font-size: 12px;
+    color: white;
+}
+/* Navigation Section */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+}
+nav div ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding-right: 20px;
+    
+}
+nav div {
+    display: flex;
+    align-items: center;
+}
+.nav-btn {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    background: #1e1e21;
+    padding: 5px 25px;
+    border-radius: 10px;
+}
+li a {
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+header {
+    position: relative;
+    margin-top: 30px;
+}
+.mainImage {
+    width: 230px;
+    position: absolute;
+    top: -120px;
+    left: 70px;
+}
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25rem;
+    color: white;
+}
+.onEar-pic {
+    padding-top: 80px;
+}
+.onEar {
+    padding-left: 150px;
+    height: 80px;
+    align-items: center;
+}
+.section-1-content {
+    font-size: 20px;
+}
+.overview {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: start;
+}
+.section-1-paragraph {
+    padding-right: 22rem;
+    padding-bottom: 30px;
+}
+main .section-1-bottom {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    margin-right: 26rem;
+    background: #1e1e21;
+    border-radius: 10px;
+}
+.shoppingBag {
+    height: 25px;
+}
+/* Section 2 */
+.section-2 {
+    padding: 50px;
+}
+.brand-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* Section 3 */
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.section-3-Spacelogo {
+    align-items: center;
+    text-align: center;
+}
+.section-3-content {
+    display: flex;
+}
+.bluetooth-description {
+    font-size: 12px;
+    color: white;
+}
+.section-3-product-list {
+    padding: 20px;
+}
+.section-3-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.section-3-product-list-a {
+    margin-left: 5rem;
+}
+.section-3-product-list-d {
+    margin-left: 5rem;
+}
+.section-3-right {
+    align-items: center;
+    text-align: center;
+}
+/* Section 4 */
+.section-4 {
+    margin-top: 5rem;
+}
+.section-4-header-img {
+    align-items: center;
+    text-align: center;
+}
+.section-4-right {
+    margin: 0 50px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+}
+.section-4-right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    align-items: left;
+    margin: 1.5rem 10rem;
+}
+.section-4-btn {
+    display: flex;
+    background-color: #1e1e21;
+    color: white;
+    padding: 10px 25px;
+    gap: 10px;
+    margin-right: 35rem;
+    border-radius: 10px;
+}
+.section-4-content {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-between;
+    margin-left: 5rem;
+    gap: 5rem;
+}
+.section-4-description {
+    margin-right: 32rem;
+    margin-bottom: 20px;
+}
+/* Section 5 */
+.section-5 {
+    margin-top: 30px;
+}
+.section-5-content {
+    background-color: #fff;
+}
+/* Section 6 */
+.section-6 {
+    background-color: #1e1e21;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 50px 0px 50px;
+    border-radius: 10px;
+    padding: 2rem;
 
+}
+.left-content-6 {
+    align-items: start;
+    color: white;
+    margin-right: 250px;
+    font-size: 18px;
+}
+.section-6-btn {
+    background-color: black;
+    align-items: center;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 5px;
+    display: flex;
+    font-weight: 600;
+}
+.section-6-shoppingbag {
+    margin-right: 5px;
+}
+.left-content-6-paragraph {
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+/* Sectrion 7 */
+.section-7 {
+    align-items: center;
+    text-align: center;
+}
+.section-7-img {
+    width: 120px;
+    height: 50px;
+    margin: 3rem 0rem;
+}
+.product-card {
+    background-color: #1e1e21;
+    height: 130px;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.product-section {
+    display: flex;
+    justify-content: space-around;
+}
+.product-images {
+    width: 75px;
+    height: 100px;
+    position: relative;
+    bottom: 35px;
+}
+.card-content {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 15px;
+    position: relative;
+    bottom: 35px;
+}
+.section-7-shopping-bag {
+    background-color: black;
+    align-items: center;
+    display: flex;
+    padding: 5px;
+    border-radius: 10px;
+}
+/* Footer Section */
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0px;
+}
+.footer-li {
+    list-style: none;
+}
+.footer-li a {
+    font-weight: 300;
+    font-size: 15px;
+}
+.product-support {
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: white;
+}
+.footer-right-content {
+    background-color: #1e1e21;
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    align-items: center;
+}
+.footer-subscribe {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-weight: 900;
+    padding: 10px;
+    border-radius: 5px;
+}
+.email {
+    background-color: #1e1e21;
+    border: none;
+    background-color: transparent;
+}
+.upaerrow {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
